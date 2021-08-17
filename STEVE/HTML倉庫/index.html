@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<header>
+  <title>ログイン画面</title>
+    <style>
+    body{
+      color: blueviolet;
+      font-family:"07ラノベPOP";
+    }
+    </style>
+</header>
+<body>
+    <center>
+    <h1>STEVEへようこそ</h1>
+    <a href="STEVE表紙.html">STEVEを始める</a>
+    <script type="text/javascript">
+        function first(){
+          var pass=prompt("パスワードを入力")
+          var passWord="kyanpasulife"
+          if(pass==passWord){
+            alert("よう…四年ぶりだな");
+          }else{
+            alert("(パスワードが)違う…違うんだ");
+            first();
+          }
+        }
+      first();
+    </script>
+    </center>
+</body>
